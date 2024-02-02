@@ -34,9 +34,7 @@ const SocialProfile = () => {
         className="w-24 h-24 rounded-full"
       />
       <div className="flex flex-col items-center gap-2">
-        <h1 className="text-2xl text-white font-semibold tracking-wide">
-          Jessica Randall
-        </h1>
+        <h1 className="text-2xl text-white font-semibold tracking-wide">Jessica Randall</h1>
         <h2 className="text-sm text-primary font-bold tracking-wide">
           London, United Kingdom
         </h2>
@@ -47,7 +45,10 @@ const SocialProfile = () => {
       </p>
       <div className="w-full flex flex-col mx-28 gap-4">
         {SocialLinks.map(({ id, title }) => (
-          <Button key={id} title={title} />
+          <Button 
+            key={id} 
+            title={title} 
+          />
         ))}
       </div>
     </div>
