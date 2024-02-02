@@ -9,14 +9,14 @@ const inter = Inter(
   );
 
 export const metadata = {
-  title: "Social Links Profile",
-  description: "Social Links Profile",
+  title: "Jessica Randall | Social Links Profile",
+  description: "Jessica Randall | Social Links Profile",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`bg-off-black ${inter.className}`}>{children}</body>
     </html>
   );
 }
